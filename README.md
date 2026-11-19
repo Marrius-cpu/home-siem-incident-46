@@ -7,8 +7,10 @@ A hands-on home lab project simulating a Tier-1 SOC investigation. This project 
 3. **Detection & Triage:** Custom Microsoft Sentinel analytics rule detecting `whoami.exe` execution (MITRE ATT&CK: T1033 - Discovery) and generating an incident in the Microsoft Defender portal.
 
 ## Repository Contents
+* **[Tier-1 SOC Investigation Report_ Incident #46.pdf](./Tier-1%20SOC%20Investigation%20Report_%20Incident%20%2346.pdf)** — Full investigation report, including screenshots
+* **[artifacts/](./artifacts/)** — Portal exports and raw data (`Case_46.pdf` and `Raw_Data.pdf`).
 
 ## Key Findings
 * **Event:** User discovery (`whoami`) command executed via PowerShell.
 * **Verdict:** True Positive — Benign Testing (Authorized Lab Simulation).
-**Takeaway:** Successfully validated the end-to-end pipeline and identified future detection improvements.
+* **Takeaway:** Successfully validated the end-to-end pipeline and identified future detection improvements.
